@@ -171,7 +171,7 @@
           <div class="block brands-block">
             <h3 class="brands-block__title block-title">Ремонт техники различных брендов</h3>
             <div class="swiper-container brands-container">
-              <div class="swiper-wrapper">
+              <div class="swiper-wrapper brands-block__limiter">
                 <div class="swiper-slide">
                   <div class="swiper-item swiper-item--lenovo">
                     <a href="#" class="swiper-link"></a></div>
@@ -185,7 +185,7 @@
                   <a href="#" class="swiper-link"></a>
                 </div>
                 <div class="swiper-slide">
-                  <div class="swiper-item swiper-item--view-sonic"></div>
+                  <div class="swiper-item swiper-item--view-sonic disabled"></div>
                   <a href="#" class="swiper-link"></a>
                 </div>
                 <div class="swiper-slide">
@@ -201,24 +201,24 @@
                   <a href="#" class="swiper-link"></a>
                 </div>
                 <div class="swiper-slide">
-                  <div class="swiper-item swiper-item--sony"></div>
+                  <div class="swiper-item swiper-item--sony disabled"></div>
                   <a href="#" class="swiper-link"></a>
                 </div>
                 <div class="swiper-slide">
-                  <div class="swiper-item swiper-item">
+                  <div class="swiper-item swiper-item disabled">
                     <a href="#" class="swiper-link"></a></div>
                 </div>
               </div>
               <div class="swiper-pagination"></div>
             </div>
             <button class="more-button more-button--brands-block" type="button">
-              Показать все
+              <img src="/img/block-info-read-more-decoration.svg" class="more-button__image"><span class="more-button__text">Показать все</span>
             </button>
           </div>
           <div class="block block--technics">
             <h3 class="block-title">Ремонт различных видов техники</h3>
             <div class="swiper-container">
-              <div class="swiper-wrapper">
+              <div class="swiper-wrapper block--technics__limiter">
                 <div class="swiper-slide">
                   <div class="swiper-item">Ремонт ноутбуков
                     <a href="#" class="swiper-link"></a></div>
@@ -260,8 +260,8 @@
               <div class="swiper-pagination"></div>
 
             </div>
-            <button class="more-button more-button--brands-block" type="button">
-              Показать все
+            <button class="more-button more-button--technics-block" type="button">
+              <img src="/img/block-info-read-more-decoration.svg" class="more-button__image"><span class="more-button__text">Показать все</span>
             </button>
           </div>
           <div class="block price-block">
@@ -370,6 +370,7 @@
     </div>
   </div>
   
+  <script src="js/index.js"></script>
 <script type="text/javascript" src="./js/bundle.js"></script></body>
 
 </html>
